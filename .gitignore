@@ -1,0 +1,42 @@
+# ── Secrets ──────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# ── Python ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Node ─────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+
+# ── Obsidian ─────────────────────────────────────────────────────────
+# Keep shared vault settings; ignore per-machine UI state and caches.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# ── OS / editor cruft ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# ── Local model / media caches ───────────────────────────────────────
+*.pt
+*.onnx
+*.wav
+*.mp3

@@ -1,0 +1,9 @@
+# Only needed for speaking (Kokoro TTS). Nothing else in this project needs
+# pip install — everything else is stdlib.
+#
+#   pip install -r requirements-kokoro.txt
+#
+# torch comes in automatically as kokoro's dependency. First run downloads
+# the ~300MB Kokoro-82M model from Hugging Face and caches it locally.
+kokoro
+soundfile
